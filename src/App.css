@@ -27,12 +27,27 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.driver-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
 }
+
+.driver-info {
+  flex: 1;
+}
+
+.driver-image {
+  width: 30%; /* Adjust the width as needed */
+}
+
+.driver-image img {
+  max-width: 100%;
+  height: auto;
+}
+
